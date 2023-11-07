@@ -24,15 +24,25 @@ Si vous n'avez pas enore nodes.js sur votre ordinateur, il faudra d'abord l'inst
 #Les différents liens d'accès aux APIs suivants vont apparaitre:
 
 ** Resources**
+
   http://localhost:3000/Defauts
+  
   http://localhost:3000/executions
+  
   http://localhost:3000/exigences
+  
   http://localhost:3000/tests
+  
   http://localhost:3000/projects
+  
   http://localhost:3000/users
+  
   http://localhost:3000/testcategory
+  
   http://localhost:3000/Env_exec
+  
   http://localhost:3000/message
+  
   http://localhost:3000/testCases
 
 
