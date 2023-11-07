@@ -3,7 +3,7 @@
 #Pour exécuter l'application il faut le déployer sur un serveur web et installer le serveur Json.
 
 **Installation du server json**
-#Si vous n'avez pas enore nodes.js sur votre ordinateur, il faudra d'abord l'installer pour exécuter la commande suivante:
+Si vous n'avez pas enore nodes.js sur votre ordinateur, il faudra d'abord l'installer pour exécuter la commande suivante:
 #npm install -g json-server
 #Après avoir installer le package json-server, vous pouvez maitenant démarrer le serveur.
 **Utiliser cette commande:**
