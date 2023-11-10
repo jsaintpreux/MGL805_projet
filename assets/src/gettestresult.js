@@ -193,12 +193,12 @@ for (var i = 0; i < taille; i++) {
 		 w++;
     }
 	if (key == 'testtype' ) {
-		if(`${value}`=='Unit test')
+		if(`${value}`=='Test GUI')
 		 x0++;
 	 else{
-		 if(`${value}`=='Integration test')
+		 if(`${value}`=='Test API')
 		 x1++;
-	 else{if(`${value}`=='Performance test')
+	 else{if(`${value}`=='Test Performances')
 		 x2++;
 		 else{if(`${value}`=='Smoke test')
 		 x3++;
