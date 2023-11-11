@@ -1745,20 +1745,20 @@
   "testcategory": [
     {
       "id": 1,
-      "testtype": "Test GUI "
+      "testtype": "Unit test"
     },
     {
       "id": 2,
-      "testtype": "Test API"
+      "testtype": "Integration test"
     },
     {
       "id": 3,
-      "testtype": "Test Performances"
+      "testtype": "Performance test"
     },
-   /* {
-      //"id": 4,
-      //"testtype": "Smoke test"
-    }*/
+    {
+      "id": 4,
+      "testtype": "Smoke test"
+    }
   ],
   "Env_exec": [
     {
@@ -1776,9 +1776,8 @@
   ],
   "message": [
     {
-      "id": 1,
-      "session_id": "2",
-      "affichage": "Oui"
+      "affichage": "Non",
+      "id": 1
     },
     {
       "affichage": "Non",
