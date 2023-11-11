@@ -731,12 +731,12 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test API"
     },
     {
       "id": 2,
       "Status": "NOTRUN",
-      "Type": "Test Payment API ",
+      "Type": "Test API ",
       "Description": "test numero 1",
       "Priorite": 3,
       "Version_correction": "1.1",
@@ -745,12 +745,12 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testAPI\" ",
-      "testtype": "Performance test"
+      "testtype": "Test API"
     },
     {
       "id": 3,
       "Status": "NOTRUN",
-      "Type": "Test GetClientData API",
+      "Type": "Test GUI",
       "Description": "test numero 1",
       "Priorite": 3,
       "Version_correction": "1.1",
@@ -759,7 +759,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testAPI\" ",
-      "testtype": "Performance test"
+      "testtype": "Test GUI"
     },
     {
       "id": 4,
@@ -773,7 +773,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testGUI\" ",
-      "testtype": "Performance test"
+      "testtype": "Test GUI"
     },
     {
       "id": 5,
@@ -787,12 +787,12 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test Performances"
     },
     {
       "id": 6,
       "Status": "NOTRUN",
-      "Type": "Test GUI",
+      "Type": "Test performance",
       "Description": "test numero 4",
       "Priorite": 3,
       "Version_correction": "1.2",
@@ -801,7 +801,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testGUI\"",
-      "testtype": "Performance test"
+      "testtype": "Test Performances"
     },
     {
       "id": 7,
@@ -815,7 +815,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test Performances"
     },
     {
       "id": 8,
@@ -829,7 +829,7 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testGUI\"",
-      "testtype": "Integration test"
+      "testtype": "Test GUI"
     },
     {
       "id": 9,
@@ -843,12 +843,12 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test Performances"
     },
     {
       "id": 10,
       "Status": "PASSED",
-      "Type": "Test Performances",
+      "Type": "Test API",
       "Description": "test numero 8",
       "Priorite": 1,
       "Version_correction": "1.2",
@@ -857,12 +857,12 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test API"
     },
     {
       "id": 11,
       "Status": "PASSED",
-      "Type": "Test Performances",
+      "Type": "Test GUI",
       "Description": "test numero 9",
       "Priorite": 1,
       "Version_correction": "1.1",
@@ -871,7 +871,7 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test GUI"
     },
     {
       "id": 12,
@@ -885,12 +885,12 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test API"
     },
     {
       "id": 13,
       "Status": "PASSED",
-      "Type": "Test API",
+      "Type": "Test performance",
       "Description": "test numero 11",
       "Priorite": 3,
       "Version_correction": "1.1",
@@ -899,12 +899,12 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test performances"
     },
     {
       "id": 14,
       "Status": "PASSED",
-      "Type": "Test Performances",
+      "Type": "Test performances",
       "Description": "test numero 12",
       "Priorite": 2,
       "Version_correction": "1.2",
@@ -913,12 +913,12 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test performances"
     },
     {
       "id": 15,
       "Status": "PASSED",
-      "Type": "Test GUI",
+      "Type": "Test performances",
       "Description": "test numero 13",
       "Priorite": 2,
       "Version_correction": "1.2",
@@ -927,7 +927,7 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testGUI\"",
-      "testtype": "Integration test"
+      "testtype": "Test performances"
     },
     {
       "id": 16,
@@ -941,12 +941,12 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test API"
     },
     {
       "id": 17,
       "Status": "PASSED",
-      "Type": "Test module data client",
+      "Type": "Test API",
       "Description": "test numero 15",
       "Priorite": 3,
       "Version_correction": "1.1",
@@ -955,7 +955,7 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testGUI\"",
-      "testtype": "Integration test"
+      "testtype": "Test API"
     },
     {
       "id": 18,
@@ -969,12 +969,12 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test API"
     },
     {
       "id": 19,
       "Status": "PASSED",
-      "Type": "Test login page",
+      "Type": "Test performance",
       "Description": "test numero 17",
       "Priorite": 1,
       "Version_correction": "1.2",
@@ -983,12 +983,12 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testGUI\"",
-      "testtype": "Unit test"
+      "testtype": "Test performance"
     },
     {
       "id": 20,
       "Status": "NOTRUN",
-      "Type": "Test API payment gateway",
+      "Type": "Test API",
       "Description": "test numero 18",
       "Priorite": 1,
       "Version_correction": "1.1",
@@ -997,12 +997,12 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test API"
     },
     {
       "id": 21,
       "Status": "PASSED",
-      "Type": "Test GUI payment",
+      "Type": "Test GUI",
       "Description": "test numero 19",
       "Priorite": 3,
       "Version_correction": "1.2",
@@ -1011,7 +1011,7 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testGUI\"",
-      "testtype": "Unit test"
+      "testtype": "Test GUI"
     },
     {
       "id": 22,
@@ -1025,7 +1025,7 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test Performances"
     },
     {
       "id": 23,
@@ -1039,7 +1039,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test API"
     },
     {
       "id": 24,
@@ -1053,7 +1053,7 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testGUI\"",
-      "testtype": "Unit test"
+      "testtype": "Test GUI"
     },
     {
       "id": 25,
@@ -1067,7 +1067,7 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testGUI\"",
-      "testtype": "Unit test"
+      "testtype": "Test GUI"
     },
     {
       "id": 26,
@@ -1081,12 +1081,12 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test Performances"
     },
     {
       "id": 27,
       "Status": "NOTRUN",
-      "Type": "Test Performances",
+      "Type": "Test GUI",
       "Description": "test numero 25",
       "Priorite": 2,
       "Version_correction": "1.1",
@@ -1095,7 +1095,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test GUI"
     },
     {
       "id": 28,
@@ -1109,12 +1109,12 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test Performances"
     },
     {
       "id": 29,
       "Status": "FAILED",
-      "Type": "Test GUI User info",
+      "Type": "Test GUI",
       "Description": "test numero 27",
       "Priorite": 3,
       "Version_correction": "1.1",
@@ -1123,7 +1123,7 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testGUI\"",
-      "testtype": "Unit test"
+      "testtype": "Test GUI"
     },
     {
       "id": 30,
@@ -1137,12 +1137,12 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test API"
     },
     {
       "id": 31,
       "Status": "FAILED",
-      "Type": "Test GUI",
+      "Type": "Test API",
       "Description": "test numero 29",
       "Priorite": 2,
       "Version_correction": "1.2",
@@ -1151,7 +1151,7 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testGUI\"",
-      "testtype": "Performance test"
+      "testtype": "Test API"
     },
     {
       "id": 32,
@@ -1165,7 +1165,7 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testGUI\"",
-      "testtype": "Performance test"
+      "testtype": "Test GUI"
     },
     {
       "id": 33,
@@ -1179,7 +1179,7 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test API"
     },
     {
       "id": 34,
@@ -1193,7 +1193,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testAPI\" ",
-      "testtype": "Performance test"
+      "testtype": "Test API"
     },
     {
       "id": 35,
@@ -1207,12 +1207,12 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test Performances"
     },
     {
       "id": 36,
       "Status": "NOTRUN",
-      "Type": "Test Performances",
+      "Type": "Test GUI",
       "Description": "test numero 34",
       "Priorite": 1,
       "Version_correction": "1.1",
@@ -1221,7 +1221,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test GUI"
     },
     {
       "id": 37,
@@ -1235,12 +1235,12 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testGUI\"",
-      "testtype": "Integration test"
+      "testtype": "Test GUI"
     },
     {
       "id": 38,
       "Status": "NOTRUN",
-      "Type": "Test GUI",
+      "Type": "Test API",
       "Description": "test numero 36",
       "Priorite": 1,
       "Version_correction": "1.1",
@@ -1249,7 +1249,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testGUI\"",
-      "testtype": "Unit test"
+      "testtype": "Test API"
     },
     {
       "id": 39,
@@ -1263,7 +1263,7 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test API"
     },
     {
       "id": 40,
@@ -1277,7 +1277,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test Performances"
     },
     {
       "id": 41,
@@ -1291,7 +1291,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testGUI\"",
-      "testtype": "Unit test"
+      "testtype": "Test GUI"
     },
     {
       "id": 42,
@@ -1305,7 +1305,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test API"
     },
     {
       "id": 43,
@@ -1319,12 +1319,12 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test Performances"
     },
     {
       "id": 44,
       "Status": "PASSED",
-      "Type": "Test API",
+      "Type": "Test performance",
       "Description": "test numero 42",
       "Priorite": 2,
       "Version_correction": "1.2",
@@ -1333,7 +1333,7 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test performance"
     },
     {
       "id": 45,
@@ -1347,7 +1347,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testGUI\"",
-      "testtype": "Unit test"
+      "testtype": "Test GUI"
     },
     {
       "id": 46,
@@ -1361,7 +1361,7 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test API"
     },
     {
       "id": 47,
@@ -1375,7 +1375,7 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "Test API"
     },
     {
       "id": 48,
@@ -1389,12 +1389,12 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test Performances"
     },
     {
       "id": 49,
       "Status": "PASSED",
-      "Type": "Test API",
+      "Type": "Test GUI",
       "Description": "test numero 47",
       "Priorite": 2,
       "Version_correction": "1.1",
@@ -1403,7 +1403,7 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testAPI\" ",
-      "testtype": "Unit test"
+      "testtype": "Test GUI"
     },
     {
       "id": 50,
@@ -1417,7 +1417,7 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test Performances"
     },
     {
       "id": 51,
@@ -1431,7 +1431,7 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testGUI\"",
-      "testtype": "Integration test"
+      "testtype": "Test GUI"
     },
     {
       "id": 52,
@@ -1445,7 +1445,7 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"passed\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test Performances"
     },
     {
       "id": 53,
@@ -1459,7 +1459,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "test performance"
     },
     {
       "id": 54,
@@ -1473,7 +1473,7 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"failed\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "test API"
     },
     {
       "id": 55,
@@ -1487,12 +1487,12 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testAPI\" ",
-      "testtype": "Integration test"
+      "testtype": "test API"
     },
     {
       "id": 56,
       "Status": "NOTRUN",
-      "Type": "Test GUI",
+      "Type": "Test API",
       "Description": "test numero 54",
       "Priorite": 2,
       "Version_correction": "1.2",
@@ -1501,7 +1501,7 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"notRun\"tag:\"testGUI\"",
-      "testtype": "Unit test"
+      "testtype": "test API"
     },
     {
       "id": 57,
@@ -1515,7 +1515,7 @@
       "Taux_succes": 1,
       "exigence_id": 1,
       "Etiquettes": "tag:\"uncovered\"tag:\"testGUI\"",
-      "testtype": "Unit test"
+      "testtype": "test GUI"
     },
     {
       "id": 58,
@@ -1529,12 +1529,12 @@
       "Taux_succes": 0,
       "exigence_id": 3,
       "Etiquettes": "tag:\"uncovered\"tag:\"testGUI\"",
-      "testtype": "Unit test"
+      "testtype": "test GUI"
     },
     {
       "id": 59,
       "Status": "UNCOVERED",
-      "Type": "Test Performances",
+      "Type": "Test API",
       "Description": "test numero 57",
       "Priorite": 1,
       "Version_correction": "1.2",
@@ -1543,7 +1543,7 @@
       "Taux_succes": 0,
       "exigence_id": 2,
       "Etiquettes": "tag:\"uncovered\"tag:\"testPerformances\"",
-      "testtype": "Performance test"
+      "testtype": "Test API"
     }
   ],
   "projects": [
@@ -1776,9 +1776,8 @@
   ],
   "message": [
     {
-      "id": 1,
-      "session_id": "2",
-      "affichage": "Oui"
+      "affichage": "Non",
+      "id": 1
     },
     {
       "affichage": "Non",

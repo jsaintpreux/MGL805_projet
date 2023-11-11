@@ -142,12 +142,12 @@ for (var i = 0; i < taille; i++) {
 		 w++;
     }
 	if (key == 'testtype' ) {
-		if(`${value}`=='Unit test')
+		if(`${value}`=='Test GUI')
 		 x0++;
 	 else{
-		 if(`${value}`=='Integration test')
+		 if(`${value}`=='Test API')
 		 x1++;
-	 else{if(`${value}`=='Performance test')
+	 else{if(`${value}`=='Test Performances')
 		 x2++;
 		 else{if(`${value}`=='Smoke test')
 		 x3++;
@@ -1681,7 +1681,7 @@ userinfo[i]=`
 			lineCap: "round",
 			width: "5"
 		},
-		labels: ["Unit"]
+		labels: ["Test GUI"]
 	};
 	new ApexCharts(document.querySelector("#chart16"), e).render();
 	e = {
@@ -1760,7 +1760,7 @@ userinfo[i]=`
 		stroke: {
 			lineCap: "round"
 		},
-		labels: ["Integration"]
+		labels: ["Test API"]
 	};
 	new ApexCharts(document.querySelector("#chart17"), e).render();
 	e = {
@@ -1839,7 +1839,7 @@ userinfo[i]=`
 		stroke: {
 			lineCap: "round"
 		},
-		labels: ["Performance"]
+		labels: ["Test de Performances"]
 	};
 	new ApexCharts(document.querySelector("#chart18"), e).render();
 	e = {
