@@ -1504,7 +1504,7 @@ $('#welcomeModal').modal('hide');
 	});
 	}*/
 	texte=`
-	<h6 style="font-size:15px;color:red;">Quantité de projet testé par O/S</h6>
+	<h6 style="font-size:15px;color:red;">Quantité de projet testé par OS</h6>
 	<b>[`+getprojectinfo.environnement[0]+`: `+getprojectinfo.count[0]+`]    [`+getprojectinfo.environnement[1]+`: `+getprojectinfo.count[1]+`]     [`+getprojectinfo.environnement[2]+`: `+getprojectinfo.count[2]+`]</b>
 	`;
 	$('#info_projet').html(texte);		

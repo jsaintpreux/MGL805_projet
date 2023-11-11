@@ -2,13 +2,13 @@
   "Defauts": [
     {
       "id": 1,
-      "Description": "Le système a planté lors de l'appel à l'API GETCLIENTINFO",
+      "Description": "Le système a planté lors de l'appel à l'API GET CLIENT INFO",
       "execution_id": 2,
       "category": "Erreur"
     },
     {
       "id": 2,
-      "Description": "Résultat inccorect obtenu après execution de l'API GETCLIENTDATA",
+      "Description": "Résultat inccorect obtenu après execution de l'API GET CLIENT DATA",
       "execution_id": 3,
       "category": "Faute"
     },
@@ -32,61 +32,61 @@
     },
     {
       "id": 6,
-      "Description": "defaut numero 6",
+      "Description": "Signalement d'une défaillance en production liée à une surcharge de la base de données",
       "execution_id": 15,
       "category": "Défaillance du système"
     },
     {
       "id": 7,
-      "Description": "defaut numero 7",
+      "Description": "Le système a cessé de répondre lors de l'appel à l'API FETCH USER INFO ",
       "execution_id": 16,
-      "category": "Défaillance du système"
+      "category": "Erreur"
     },
     {
       "id": 8,
-      "Description": "defaut numero 8",
+      "Description": "Le système a planté lors de l'appel à l'API UPDATE CLIENT DATA Erreur",
       "execution_id": 18,
-      "category": "Erreur système"
+      "category": "Erreur"
     },
     {
       "id": 9,
-      "Description": "defaut numero 9",
+      "Description": "On rapporte une défaillance en production liée à un problème de sécurité",
       "execution_id": 20,
-      "category": "Faute"
-    },
-    {
-      "id": 10,
-      "Description": "defaut numero 10",
-      "execution_id": 21,
-      "category": "Erreur système"
-    },
-    {
-      "id": 11,
-      "Description": "defaut numero 11",
-      "execution_id": 24,
       "category": "Défaillance du système"
     },
     {
+      "id": 10,
+      "Description": "Erreur système lors de l'ajout d'un nouvel utilisateur",
+      "execution_id": 21,
+      "category": "Erreur"
+    },
+    {
+      "id": 11,
+      "Description": "Le système a cessé de répondre lors de la création d'un nouveau projet",
+      "execution_id": 24,
+      "category": "Erreur"
+    },
+    {
       "id": 12,
-      "Description": "defaut numero 12",
+      "Description": "Signalement d'une défaillance en production liée à un débordement de mémoire",
       "execution_id": 29,
-      "category": "Faute"
+      "category": "Défaillance du système"
     },
     {
       "id": 13,
-      "Description": "defaut numero 13",
+      "Description": "Signalement d'une défaillance en production liée à une erreur de configuration du pare-feu ",
       "execution_id": 32,
       "category": "Défaillance du système"
     },
     {
       "id": 14,
-      "Description": "defaut numero 14",
+      "Description": "Le système a planté lors de la tentative de mise à jour de l'API INVENTORY",
       "execution_id": 34,
       "category": "Erreur"
     },
     {
       "id": 15,
-      "Description": "defaut numero 15",
+      "Description": "Résultats de recherche incorrects obtenus après l'exécution de l'API SEARCH",
       "execution_id": 42,
       "category": "Faute"
     },
@@ -98,15 +98,15 @@
     },
     {
       "id": 17,
-      "Description": "defaut numero 17",
+      "Description": "Les résultats de l'analyse des données sont incorrects après l'exécution de l'API ANALYTICS",
       "execution_id": 45,
       "category": "Faute"
     },
     {
       "id": 18,
-      "Description": "defaut numero 18",
+      "Description": "Erreur lors de la mise à jour du système d'exploitation, provoquant des incompatibilités logicielles",
       "execution_id": 53,
-      "category": "Erreur système"
+      "category": "Erreur"
     }
   ],
   "executions": [
@@ -709,7 +709,7 @@
     },
     {
       "id": 2,
-      "Status": "NOK",
+      "Status": "Signalement d'une défaillance en production liée à une surcharge de la base de donnéesOK",
       "Description": "Exigence 2"
     },
     {
@@ -1745,15 +1745,15 @@
   "testcategory": [
     {
       "id": 1,
-      "testtype": "Unit test"
+      "testtype": "test GUI"
     },
     {
       "id": 2,
-      "testtype": "Integration test"
+      "testtype": "test de performance"
     },
     {
       "id": 3,
-      "testtype": "Performance test"
+      "testtype": "test API"
     },
     {
       "id": 4,
@@ -1767,7 +1767,7 @@
     },
     {
       "id": 2,
-      "environment": "Mac"
+      "environment": "Mac OS"
     },
     {
       "id": 3,
@@ -1827,26 +1827,26 @@
   "testCases": [
     {
       "id": 1,
-      "summary": "Execution of automated tests for release v1.3",
+      "summary": "Execution of Test GUI",
       "description": "This execution is automatically created when importing execution results from an external source",
       "version": "v1.3",
-      "type": "Acceptance",
+      "type": "FillField",
       "Automation": "true",
       "revision": "1.0.42134",
       "startDate": "2014-08-30T11:47:35+01:00",
       "finishDate": "2014-08-30T11:53:00+01:00",
       "testPlanKey": "DEMO-100",
       "testEnvironments": [
-        "iOS",
-        "Android"
+        "Windows",
+        "chrome "
       ],
       "folder": "/Shopping Basket/Checkout",
       "testPlan_id": 1,
-      "user": "Mohamed"
+      "user": "Amine"
     },
     {
       "id": 2,
-      "summary": "Execution of automated tests for release v1.3",
+      "summary": "Execution of Test API",
       "description": "This execution is automatically created when importing execution results from an external source",
       "version": "v1.3",
       "type": "Functional",
@@ -1857,15 +1857,15 @@
       "finishDate": "2014-08-30T11:53:00+01:00",
       "testPlanKey": "DEMO-100",
       "testEnvironments": [
-        "iOS",
-        "Android"
+        "Linux",
+        "Mozila"
       ],
       "folder": "/Search",
       "testPlan_id": 4
     },
     {
       "id": 3,
-      "summary": "Execution of automated tests for release v1.3",
+      "summary": "Execution of Test Performances",
       "description": "This execution is automatically created when importing execution results from an external source",
       "version": "v1.3",
       "type": "Regression",
@@ -1883,8 +1883,27 @@
       "testPlan_id": 2
     },
     {
+      "id": 6,
+      "summary": "Execution of Test API",
+      "description": "This execution is automatically created when importing execution results from an external source",
+      "version": "v1.3",
+      "type": "Regression",
+      "Automation": "false",
+      "user": "Jéremie",
+      "revision": "1.0.42134",
+      "startDate": "2014-08-30T11:47:35+01:00",
+      "finishDate": "2014-08-30T11:53:00+01:00",
+      "testPlanKey": "DEMO-100",
+      "testEnvironments": [
+        "Windows",
+        "Opera"
+      ],
+      "folder": "/Account/Password Validation",
+      "testPlan_id": 4
+    },
+    {
       "id": 4,
-      "summary": "Execution of automated tests for release v1.3",
+      "summary": "Execution of Test API",
       "description": "This execution is automatically created when importing execution results from an external source",
       "version": "v1.3",
       "type": "Performance",
@@ -1903,10 +1922,10 @@
     },
     {
       "id": 5,
-      "summary": "Execution of automated tests for release v1.3",
+      "summary": "Execution of Test GUI",
       "description": "This execution is automatically created when importing execution results from an external source",
       "version": "v1.3",
-      "type": "Destructive",
+      "type": "GoToUrl",
       "Automation": "false",
       "user": "Caleb",
       "revision": "1.0.42134",
@@ -1914,8 +1933,8 @@
       "finishDate": "2014-08-30T11:53:00+01:00",
       "testPlanKey": "DEMO-100",
       "testEnvironments": [
-        "iOS",
-        "Android"
+        "Windows",
+        "Edge"
       ],
       "folder": "/Account/Password Validation",
       "testPlan_id": 2
